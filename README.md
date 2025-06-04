@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>EP 因子测试报告</title>
+    <style>
+        body{font-family:Arial,Helvetica,sans-serif;margin:40px;}
+        table{border-collapse:collapse;width:60%;margin-bottom:30px;}
+        th,td{border:1px solid #888;padding:6px;text-align:center;}
+    </style>
+</head>
+<body>
+<h1>EP 单因子月度选股回测报告</h1>
+
+<h2>1. 夏普率 (年化)</h2>
+<table>
+<thead><tr><th>组合</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th><th>Q5</th><th>Q6</th><th>Q7</th><th>Q8</th><th>Q9</th><th>Q10</th></tr></thead>
+<tbody><tr><td>Sharpe</td><td>0.30</td><td>0.36</td><td>0.43</td><td>0.43</td><td>0.40</td><td>0.40</td><td>0.41</td><td>0.50</td><td>0.69</td><td>0.51</td></tr></tbody>
+</table>
+
+<h2>2. 因子 IC (Spearman, 月度)</h2>
+<table>
+<thead><tr><th>月份</th><th>2024-01</th><th>2024-02</th><th>2024-03</th><th>2024-04</th><th>2024-05</th><th>2024-06</th><th>2024-07</th><th>2024-08</th><th>2024-09</th><th>2024-10</th><th>2024-11</th><th>2024-12</th><th>2025-01</th><th>2025-02</th></tr></thead>
+<tbody><tr><td>IC</td><td>0.20</td><td>0.07</td><td>0.04</td><td>0.14</td><td>0.18</td><td>0.10</td><td>-0.09</td><td>0.04</td><td>-0.09</td><td>-0.17</td><td>0.01</td><td>0.23</td><td>0.12</td><td>-0.16</td></tr></tbody>
+</table>                           
+<p>平均&nbsp;IC&nbsp;=0.045，IC IR=0.345</p>
+
+<h2>3. 累计收益曲线</h2>
+<img src="cum_returns.png" width="800">
+
+<h2>4. 累计超额收益曲线</h2>
+<img src="excess_returns.png" width="800">
+
+<small>生成日期：2025-05-27</small>
+</body>
+</html>
