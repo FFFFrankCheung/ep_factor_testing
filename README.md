@@ -3,12 +3,6 @@
 <html lang="zh-CN">
 <head>
     <meta charset="utf-8">
-    <title>EP 因子测试报告</title>
-    <style>
-        body{font-family:Arial,Helvetica,sans-serif;margin:40px;}
-        table{border-collapse:collapse;width:60%;margin-bottom:30px;}
-        th,td{border:1px solid #888;padding:6px;text-align:center;}
-    </style>
 </head>
 <body>
 <h1>EP 单因子月度选股回测报告</h1>
